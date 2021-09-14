@@ -1,3 +1,14 @@
 #header {
 	text-align: center;
 }
+
+.textheading {
+	margin-left: 10%;
+	font-family: "Lucida Console", Georgia, 'Times New Roman', Times, serif;
+}
+
+.textblock {
+	display: block;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
