@@ -9,34 +9,175 @@
 
 </head>
 <body>
-	<h1 id="header">Lasagna Recipe</h1>
+	<h1 id="header">Lasagne Rezept</h1>
 
 	<div class="pic"><img src="../pictures/lasagna.jpg" alt="Picture of Lasagna"> <!-- Img of Meal. --></div>
 
-	<h2 class="textheading">Contents</h2>
-	<ol id="content"> <!-- List of Site Content to let user jump to specific section. -->
-		<li><a href="#info">Info</a></li>
-		<li><a href="#next">next</a></li>
-	</ol>
+
+	<h2 class="textheading">Seiteninhalt</h2>
+
+	<div id="content"> <!-- List of Site Content to let user jump to specific section. -->
+		<ol> 
+			<li><a href="#info">Generelle Informationen</a></li>
+			<li><a href="#next">Zutaten</a></li>
+			<li><a href="#zubereitung">Zubereitung</a></li>
+		</ol>
+	</div>	
 
 	<br> <!-- Make Space! -->
 
-	<ol id="info"> <!-- List of basic information about recipe -->
-		<li> <p> <b>Prep: </b>  30 mins </p> </li>
-		<li> <p> <b>Cook</b>:  30 mins </p> </li>
-		<li> <p> <b>Total</b>:  60 mins </p> </li>
-		<li> <p> <b>Servings</b>:  8 </p> </li>
-		<li> <p> <b>Yield</b>:  1 9x13 inch pan </p> </li>
-	</ol>
+	<h2 class="textheading">Generelle Informationen</h2>
 
-	<!-- ingredient list -->
-	<ul>
-		<li>list for ingredients follows</li>
-	</ul>
+	<div id="info">
+		<ol> <!-- List of basic information about recipe -->
+			<li> <p> <b>Zubereitung: </b> 15 min. </p> </li>
+			<li> <p> <b>Kochen</b>:  40 min. </p> </li>
+			<li> <p> <b>Insgesamt</b>:  55 min. </p> </li>
+			<li> <p> <b>Portionen</b>:  4 </p> </li>
+		</ol>
+	</div>
 
-	<h2 class="textheading">Die Sauce</h2>
-	<div class="textblock">
-		<p>Man nehme die Sauce und verdicke sie mit Stärke. </p>
+
+	<h2 class="textheading">Zutaten</h2>
+	<!-- Zutatenliste -->
+	<div id="ingredients">
+		<h4>Für 4 Portionen</h4>
+		<table>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Schuss</td>
+				<td>Olivenöl</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>12 Stk</td>
+				<td>Lasagneblätter</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>200g</td>
+				<td>Gouda (gerieben, zum Bestreuen</td>
+			</tr>
+		</table>
+
+		<h4>Zutaten für die Bechamelsoße</h4>
+
+		<table>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>80g</td>
+				<td>Butter</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>80g</td>
+				<td>Mehl</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>800 ml</td>
+				<td>Milch</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Pfeffer (weiß)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 TL</td>
+				<td>Muskat (gestrichen)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Salz</td>
+			</tr>
+		</table>
+
+		<h4>Zutaten für die Bolognesesoße</h4>
+
+		<table>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td class="zutatmengenangabe">400g</td>
+				<td>Rinderfaschiertes</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Basilikum</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Schuss</td>
+				<td>Öl</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Oregano</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Salz</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>3 EL</td>
+				<td>Ketchup</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>5 EL</td>
+				<td>Tomatenmark</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Dose</td>
+				<td>Tomaten</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Stk</td>
+				<td>Karotte (gehackt)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Stk</td>
+				<td>Knoblauchzehe (gepresst)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Stk</td>
+				<td>Zwiebel (gehackt)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Pfeffer</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name=""></td>
+				<td>1 Prise</td>
+				<td>Thymian</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+	<h2 class="textheading">Zubereitung</h2>
+	<div class="textblock" id="zubereitung">
+		<p><strong>Bolognesesoße:</strong> Öl in einem Topf erhitzen, Faschiertes darin anrösten. Zwiebeln, Karotte und Knoblauch fein hacken, dazugeben und weiter anbraten. Tomaten und Tomatenmark sowie das Ketchup und alle Gewürze dazu und auf kleinster Stufe ca. 10 Minuten köcheln lassen.</p>
+
+		<p><strong>Bechamelsoße*:</strong> Butter in einem Topf zerlassen, Mehl hinzufügen, mit einem Schneebesen sofort umrühren. Jetzt ganz langsam, unter ständigem Rühren die Milch zugeben. Langsam aufkochen und rühren bis die Soße dicklich ist. Mit Muskat und weißem Pfeffer würzen. <br/>
+		<strong>*aus Erfahrung kann ich sagen, dass es sicherer ist die Soße fertig zu kaufen</strong></p>
+
+		<p><strong>Lasagne:</strong> Auflaufform mit Olivenöl einfetten. Nun abwechelnd die Lasagneblätter und Bolognesesoße einschichten, mit den Lasagneblättern beginnen, danach die Soßen usw. - mit der Soße abschließen.</p>
+
+		<p>Ganz zum Schluss oben drauf kommt die Bechamelsoße, nur noch frisch geriebenen Gouda drauf geben und im vorgeheizten Ofen, bei 180° C Heißluft ca 30 Minuten backen.</p>
 	</div>
 
 

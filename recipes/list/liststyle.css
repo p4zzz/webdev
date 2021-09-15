@@ -2,17 +2,45 @@
 	text-align: center;
 }
 
+
 .textheading {
-	margin-left: 33%;
+	margin-left: 10%;
 	font-family: "Lucida Console", Georgia, 'Times New Roman', Times, serif;
 }
 
 .textblock {
 	display: block;
-	text-align: center;
+	
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-left: 15%;
 }
 
 .pic {
 	display: block;
+	text-align: center;
+}
+
+#content {
+	margin-left: 15%;
+}
+
+#info {
+	margin-left: 15%;
+}
+
+#ingredients {
+	margin-left: 15%;
+}
+
+.unmarkedList {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: .5rem;
+}
+
+ul, ol, h4 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
