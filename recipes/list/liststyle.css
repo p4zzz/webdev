@@ -1,11 +1,12 @@
 #header {
 	text-align: center;
+	font-family: "Glory", "sans-serif";
 }
 
 
 .textheading {
 	margin-left: 10%;
-	font-family: "Lucida Console", Georgia, 'Times New Roman', Times, serif;
+	font-family: "Glory", "sans-serif";
 }
 
 .textblock {

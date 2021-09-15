@@ -1,7 +1,11 @@
-#header {
+#header, h1 {
 	text-align: center;
 	text-decoration: underline;
-}
+	font-family: "Glory", "sans-serif";
+	font-size: 40px;
+
+}	
+
 
 #recipelist {
 	width: 50%;
