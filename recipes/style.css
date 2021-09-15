@@ -33,12 +33,3 @@ button:hover {
 	transition-duration: .1s;
 }
 
-footer {
-	background-color: lightgrey;
-	height: 5em;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-}
