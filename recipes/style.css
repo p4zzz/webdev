@@ -33,6 +33,9 @@ button {
 	margin-bottom: 1.5em;
 	color: black;
 	transition: all .5s;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Glory;
 }
 
 button:hover {

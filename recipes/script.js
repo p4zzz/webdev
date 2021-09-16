@@ -10,8 +10,8 @@ function goToPizza() {
 	window.location.href="list/pizza.html";
 }
 
-function goToRecipe() {
-	window.location.href="list/recipe.html"
+function goToPizzaschnecken() {
+	window.location.href="list/pizzaschnecken.html"
 }
 
 
