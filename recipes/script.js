@@ -1,4 +1,4 @@
-const urls = ["list/lasagna.html", "list/pizza.html", "list/recipe.html"]
+const urls = ["list/lasagna.html", "list/pizza.html", "list/pizzaschnecken.html"]
 
 
 // funcs for redirects to recipes
