@@ -14,6 +14,9 @@ function goToPizzaschnecken() {
 	window.location.href="list/pizzaschnecken.html"
 }
 
+function goToMaggifixsandra() {
+	window.location.href="list/maggifix_sandra.html"
+}
 
 
 
